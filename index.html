@@ -7,26 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <input value="CLICK" onclick="alert('уря!')" type="button"></input> 
+    <input value="CLICK" onclick="clickBtn()" type="button"></input> 
 
-
-
-    <input type="text" value="" onblur="alert('ждем возвращения')">
-
-
-
+    <input type="text" value="" onblur="blurBtn()">
 
     <input type="text" value="" id="myinput">
     <input type="Submit" id="text" value="опубликовать" onclick='onClickBtn()'>
 
 
-    <script>
-        function onClickBtn() {
-            let renameText = document.getElementById("myinput").value
-            document.getElementById('text').value = renameText;
-        }
-    </script>
-
-
+    <script src="lesson_2.1.js"></script>
 </body>
 </html>
